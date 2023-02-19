@@ -1,3 +1,5 @@
+# MUST INSTALLpip install lolcat
+
 from subprocess import (
     run
 )
