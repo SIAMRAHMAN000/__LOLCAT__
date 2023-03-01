@@ -7,6 +7,10 @@ from subprocess import (
     run
 )
 
+
+def lolcat(text):
+  run(["lolcat"], input=text, text=True)
+
 logo = """
 
 
@@ -17,10 +21,6 @@ logo = """
  ██████     ██    ██   ██     ██      ██
 
 """
-
-def lolcat(text):
-  run(["lolcat"], input=text, text=True)
-
 
 lolcat(logo)
 ```
